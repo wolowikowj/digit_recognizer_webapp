@@ -38,7 +38,8 @@ if img_file is not None:
     img_array_reshaped = img_array.reshape(1, -1)
 
     st.write(img_array_reshaped.shape)
-
     pred = np.argmax(digit_recognizer.predict(img_array_reshaped), axis=1)
     prediction = pred.item()
-    st.markdown(f"""### :green[The written number is {prediction}!]""")
+ 
+
+st.markdown(f"""### :green[The written number is {prediction}!]""")
