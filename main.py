@@ -17,7 +17,7 @@ from streamlit_drawable_canvas import st_canvas
 #Set page context
 st.set_page_config(
      page_title="Digit Recognizer",
-     page_icon=":snowflake:",
+     page_icon=":four_leaf_clover:",
      layout="wide",
      initial_sidebar_state="expanded",
      menu_items={
@@ -41,5 +41,4 @@ if img_file is not None:
     pred = np.argmax(digit_recognizer.predict(img_array_reshaped), axis=1)
     prediction = pred.item()
  
-
 st.markdown(f"""### :green[The written number is {prediction}!]""")
