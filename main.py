@@ -25,7 +25,7 @@ st.set_page_config(
      }
  )
 
-digit_recognizer = load_model("digit_recognizer.h5")
+digit_recognizer = load_model("digit_recognizer_v2.h5")
 
 st.title("Digit Recognizer")
 
