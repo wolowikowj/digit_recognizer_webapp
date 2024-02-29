@@ -25,17 +25,16 @@ st.set_page_config(
      }
  )
 
-digit_recognizer = load_model("digit_recognizer.h5")
+digit_recognizer = load_model("digit_recognizer_v2.keras")
 
 st.title("Digit Recognizer")
-
 img_file = st.file_uploader(label = "Upload your image.")
 
 if img_file is not None:
     st.image(img_file)
     img_open = Image.open(img_file).convert('L')
     img_array = np.array(img_open)
-    img_array_reshaped = img_array.reshape(1, -1)
+    img_array_reshaped = img_array.reshape(-1, 1, 28, 28)
 
     st.write(img_array_reshaped.shape)
     pred = np.argmax(digit_recognizer.predict(img_array_reshaped), axis=1)
