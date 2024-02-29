@@ -28,7 +28,6 @@ st.set_page_config(
 digit_recognizer = load_model("digit_recognizer_v2.keras")
 
 st.title("Digit Recognizer")
-st.write(tf.__version__)
 img_file = st.file_uploader(label = "Upload your image.")
 
 if img_file is not None:
