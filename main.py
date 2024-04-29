@@ -28,10 +28,9 @@ st.set_page_config(
          'About': "To be filled out later."
      }
  )
-st.write(f'tensorflow: {tf.__version__}')
-st.write(f'streamlit: {st.__version__}')
-digit_recognizer = load_model("digit_recognizer_v4.keras")
-digit_recognizer.load_weights("digit_recognizer_v4_weights.h5")
+
+digit_recognizer = load_model("digit_recognizer_v4.h5")
+# digit_recognizer.load_weights("digit_recognizer_v4_weights.h5")
 
 # img_file = st.file_uploader(label = "Upload your image.")
 
