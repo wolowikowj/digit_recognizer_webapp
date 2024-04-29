@@ -93,4 +93,4 @@ with cols[0]:
 
 expander = st.expander("Explanation")
 
-expander.write("This is a simple digit recognizer based on a convolutional neural network model that has been trained on the MNIST dataset. I employed some data augmentation to make the model more robust to different handwritings.")
+expander.write("This is a simple digit recognizer based on a convolutional neural network model that has been trained on the MNIST dataset. I employed some data augmentation to make the model more robust to different handwritings.  \n  \n I did this project to learn more about convolutional neural networks, working with git and deployment in the Streamlit cloud.")
