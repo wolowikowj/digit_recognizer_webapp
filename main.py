@@ -93,13 +93,13 @@ with cols[0]:
 
 with expander("Explanation"):
      st.markdown(
-          "This is a basic digit recognizer web application. The underlying model is a convolutional neural network that has been trained on the MNIST dataset, with some data augmentation to make it more robust to different handwritings.
+          "This is a basic digit recognizer web application. The underlying model is a convolutional neural network that has been trained on the MNIST dataset, with some data augmentation to make it more robust to different handwritings."
 
-My goals for this project were:
+"My goals for this project were:
 
    * learn more about convolutional networks,
    * learn to deploy a webapp in streamlit,
-   * learn to work with git
+   * learn to work with git"
 
 Ideas that could be implented in the future:
 
