@@ -93,11 +93,9 @@ with cols[0]:
 
 with st.expander("Explanation"):
      markdown_text = """
-     # Basic Digit Recognizer Web Application
-     
      This is a basic digit recognizer web application. The underlying model is a convolutional neural network that has been trained on the MNIST dataset, with some data augmentation to make it more robust to different handwritings.
      
-     ## Goals
+     ### Goals
      
      My goals for this project were:
      
@@ -105,7 +103,7 @@ with st.expander("Explanation"):
      - Learn to deploy a web app in Streamlit.
      - Learn to work with Git.
      
-     ## Future Ideas
+     ### Future Ideas
      
      Ideas that could be implemented in the future:
      
