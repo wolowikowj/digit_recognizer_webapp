@@ -91,7 +91,7 @@ with cols[0]:
             # Display the Markdown text
             st.markdown(markdown_text, unsafe_allow_html=True)
 
-with expander("Explanation"):
+with st.expander("Explanation"):
      markdown_text = """
      # Basic Digit Recognizer Web Application
      
