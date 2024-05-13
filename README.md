@@ -1,4 +1,7 @@
-This is a basic digit recognizer web application. The underlying model is a convolutional neural network that has been trained on the MNIST dataset, with some data augmentation to make it more robust to different handwritings.
+This is a basic digit recognizer web application. 
+https://wolowikowj-digit-recognizer-webapp-main-u0wuca.streamlit.app/
+
+The underlying model is a convolutional neural network that has been trained on the MNIST dataset, with some data augmentation to make it more robust to different handwritings.
 
 My goals for this project were:
   - learn more about convolutional networks,
