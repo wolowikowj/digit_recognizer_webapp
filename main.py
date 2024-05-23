@@ -119,4 +119,4 @@ with st.expander("P.S."):
      markdown_thanks = """
      My gratitude goes out towards my wife and one year old daughter, for having the patience to put up with my side projects! Thank you! :man-woman-girl:     
      """
-     st.markdown(markdow_thanks)
+     st.markdown(markdown_thanks)
