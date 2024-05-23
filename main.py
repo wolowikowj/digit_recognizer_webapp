@@ -115,3 +115,7 @@ with st.expander("Explanation"):
      
      st.markdown(markdown_text)
      
+with st.expander("P.S."):
+     markdown_text = """
+     My gratitude goes out towards my wife and one year old daughter, for having the patience to put up with my side projects! Thank you! :man-woman-girl:     
+     """
